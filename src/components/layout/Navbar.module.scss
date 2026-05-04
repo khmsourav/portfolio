@@ -1,0 +1,209 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 20px 0;
+  transition: all 0.3s ease;
+
+  &.scrolled {
+    padding: 14px 0;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border-subtle);
+    box-shadow: var(--shadow-sm);
+
+    :global([data-theme="dark"]) & {
+      background: rgba(8, 8, 18, 0.85);
+    }
+  }
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  flex-shrink: 0;
+
+  &:hover .logoText {
+    transform: rotate(-5deg) scale(1.05);
+  }
+}
+
+.logoText {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: var(--accent-gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.logoFull {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text-primary);
+
+  @media (max-width: 480px) { display: none; }
+}
+
+.desktopNav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+  justify-content: center;
+
+  @media (max-width: 768px) { display: none; }
+}
+
+.navLink {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  transition: all var(--transition-fast);
+
+  &:hover {
+    color: var(--text-primary);
+    background: var(--bg-muted);
+  }
+
+  &.active {
+    color: var(--accent-primary);
+    background: var(--accent-gradient-soft);
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.themeToggle {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  background: var(--bg-muted);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-fast);
+
+  &:hover {
+    color: var(--text-primary);
+    border-color: var(--accent-primary);
+    background: var(--accent-gradient-soft);
+  }
+}
+
+.resumeBtn {
+  font-size: 13px !important;
+  padding: 9px 18px !important;
+
+  @media (max-width: 480px) { display: none; }
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  background: var(--bg-muted);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-fast);
+
+  @media (max-width: 768px) { display: flex; }
+
+  span {
+    display: block;
+    width: 18px;
+    height: 1.5px;
+    background: var(--text-secondary);
+    border-radius: 2px;
+    transition: all 0.25s ease;
+    transform-origin: center;
+  }
+
+  &.open {
+    span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+    span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+  }
+
+  &:hover {
+    border-color: var(--accent-primary);
+    background: var(--accent-gradient-soft);
+  }
+}
+
+.mobileMenu {
+  position: fixed;
+  inset: 0;
+  top: 70px;
+  background: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px;
+  gap: 8px;
+  border-top: 1px solid var(--border-color);
+  overflow-y: auto;
+
+  @media (min-width: 769px) { display: none; }
+}
+
+.mobileLink {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: var(--font-display);
+  color: var(--text-primary);
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border-subtle);
+  transition: color var(--transition-fast);
+
+  &:hover { color: var(--accent-primary); }
+}
+
+.mobileLinkNum {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent-primary);
+  min-width: 24px;
+}
+
+.mobileResume {
+  margin-top: 16px;
+  width: 100%;
+  justify-content: center;
+}
