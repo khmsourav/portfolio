@@ -7,6 +7,7 @@ import Experience from "@/components/sections/Experience";
 import Projects from "@/components/sections/Projects";
 import Testimonials from "@/components/sections/Testimonials";
 import Interests from "@/components/sections/Interests";
+import Gallery from "@/components/sections/Gallery";
 import Contact from "@/components/sections/Contact";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         <Projects />
         <Testimonials />
         <Interests />
+        <Gallery />
         <Contact />
       </main>
       <Footer />
