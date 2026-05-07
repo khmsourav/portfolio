@@ -2,29 +2,29 @@ export const siteConfig = {
   name: "Kazi Sourav",
   title: "Frontend Developer",
   tagline: "Building beautiful, performant web experiences with React, Vue & modern frontend tools.",
-  email: "kazisourav.dev@gmail.com",
+  email: "khmsourav@gmail.com",
   location: "Bangladesh",
   available: true,
   resumeUrl: "#",
   social: {
-    github: "https://github.com/kazisourav",
-    linkedin: "https://linkedin.com/in/kazisourav",
-    twitter: "https://twitter.com/kazisourav",
+    github: "https://github.com/khmsourav",
+    linkedin: "https://linkedin.com/in/khmsourav",
+    twitter: "https://twitter.com/khmsourav",
   },
 };
 
 export const skills = [
-  { name: "React.js", category: "framework", level: 92, icon: "⚛️" },
-  { name: "Vue.js", category: "framework", level: 85, icon: "💚" },
-  { name: "TypeScript", category: "language", level: 88, icon: "🔷" },
-  { name: "JavaScript", category: "language", level: 95, icon: "🟡" },
-  { name: "HTML5", category: "core", level: 97, icon: "🧱" },
-  { name: "CSS3", category: "core", level: 93, icon: "🎨" },
-  { name: "Tailwind CSS", category: "styling", level: 94, icon: "🌊" },
-  { name: "Shopify Polaris", category: "ecosystem", level: 87, icon: "🛍️" },
+  { name: "React.js", category: "framework", level: 80, icon: "⚛️" },
+  { name: "Vue.js", category: "framework", level: 75, icon: "💚" },
+  { name: "TypeScript", category: "language", level: 80, icon: "🔷" },
+  { name: "JavaScript", category: "language", level: 85, icon: "🟡" },
+  { name: "HTML5", category: "core", level: 95, icon: "🧱" },
+  { name: "CSS3", category: "core", level: 95, icon: "🎨" },
+  { name: "Tailwind CSS", category: "styling", level: 90, icon: "🌊" },
+  { name: "Shopify Polaris", category: "ecosystem", level: 75, icon: "🛍️" },
   { name: "Git / GitHub", category: "tooling", level: 90, icon: "🐙" },
-  { name: "AI Integration", category: "emerging", level: 80, icon: "🤖" },
-  { name: "Next.js", category: "framework", level: 86, icon: "▲" },
+  { name: "AI Integration", category: "emerging", level: 85, icon: "🤖" },
+  { name: "Next.js", category: "framework", level: 80, icon: "▲" },
   { name: "SCSS / Sass", category: "styling", level: 88, icon: "💅" },
 ];
 
@@ -33,7 +33,7 @@ export const experiences = [
     id: 1,
     role: "Frontend Developer",
     company: "Software Company",
-    period: "2023 – Present",
+    period: "2021 – Present",
     type: "Full-time",
     description:
       "Building scalable frontend applications using React.js and Vue.js. Working on Shopify Polaris-based admin interfaces, SaaS dashboards, and modern web products.",
@@ -132,7 +132,7 @@ export const testimonials = [
     avatar: "AR",
     content:
       "Kazi's expertise in React and TypeScript is impressive. He integrated AI features into our platform seamlessly and his documentation was thorough and professional.",
-    rating: 5,
+    rating: 4.5,
   },
 ];
 
@@ -160,8 +160,8 @@ export const interests = [
 ];
 
 export const stats = [
-  { value: "2+", label: "Years Experience" },
-  { value: "20+", label: "Projects Delivered" },
-  { value: "10+", label: "Happy Clients" },
+  { value: "4+", label: "Years Experience" },
+  { value: "35+", label: "Projects Delivered" },
+  { value: "20+", label: "Happy Clients" },
   { value: "99%", label: "On-time Delivery" },
 ];
