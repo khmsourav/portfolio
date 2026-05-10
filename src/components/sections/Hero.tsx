@@ -113,7 +113,11 @@ export default function Hero() {
             <div className={styles.avatarRing} />
             <div className={styles.avatar}>
               <div className={styles.avatarInner}>
-                <span className={styles.avatarInitials}>KS</span>
+                <img
+                  src="/avatar.jpg"
+                  alt={siteConfig.name}
+                  className={styles.avatarPhoto}
+                />
               </div>
             </div>
             <div className={styles.statusBadge}>
