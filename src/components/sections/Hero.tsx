@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { siteConfig, stats } from "@/data/portfolio";
-import styles from "./Hero.module.scss";
+import styles from "@/css/Hero.module.scss";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },

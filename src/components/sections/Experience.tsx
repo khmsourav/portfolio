@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { experiences } from "@/data/portfolio";
-import styles from "./Experience.module.scss";
+import styles from "@/css/Experience.module.scss";
 
 export default function Experience() {
   return (

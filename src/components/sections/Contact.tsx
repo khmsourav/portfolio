@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { siteConfig } from "@/data/portfolio";
-import styles from "./Contact.module.scss";
+import styles from "@/css/Contact.module.scss";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });

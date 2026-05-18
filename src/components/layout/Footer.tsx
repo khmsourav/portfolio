@@ -1,5 +1,5 @@
 import { siteConfig } from "@/data/portfolio";
-import styles from "./Footer.module.scss";
+import styles from "@/css/Footer.module.scss";
 
 export default function Footer() {
   const year = new Date().getFullYear();

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { projects } from "@/data/portfolio";
-import styles from "./Projects.module.scss";
+import styles from "@/css/Projects.module.scss";
 
 const categories = ["All", "Shopify", "Dashboard", "AI", "Tool"];
 

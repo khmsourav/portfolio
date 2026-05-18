@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { skills } from "@/data/portfolio";
-import styles from "./Skills.module.scss";
+import styles from "@/css/Skills.module.scss";
 
 const categories = ["all", "framework", "language", "styling", "ecosystem", "tooling", "emerging"];
 

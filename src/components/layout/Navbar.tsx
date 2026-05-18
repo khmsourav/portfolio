@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "@/context/ThemeContext";
 import { siteConfig } from "@/data/portfolio";
-import styles from "./Navbar.module.scss";
+import styles from "@/css/Navbar.module.scss";
 
 const navLinks = [
   { label: "About", href: "#about" },

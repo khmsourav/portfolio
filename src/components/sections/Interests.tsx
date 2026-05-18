@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { interests } from "@/data/portfolio";
-import styles from "./Interests.module.scss";
+import styles from "@/css/Interests.module.scss";
 
 export default function Interests() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import styles from "./About.module.scss";
+import styles from "@/css/About.module.scss";
 
 const values = [
   { icon: "🤝", title: "Honesty & Integrity", desc: "I believe clean code mirrors clean character — no shortcuts on quality or ethics." },

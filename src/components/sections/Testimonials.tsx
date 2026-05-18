@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { testimonials } from "@/data/portfolio";
-import styles from "./Testimonials.module.scss";
+import styles from "@/css/Testimonials.module.scss";
 
 export default function Testimonials() {
   return (

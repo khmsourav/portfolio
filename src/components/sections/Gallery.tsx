@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import styles from "./Gallery.module.scss";
+import styles from "@/css/Gallery.module.scss";
 
 const tabs = ["Cricket", "Football", "Adventure"] as const;
 type Tab = (typeof tabs)[number];

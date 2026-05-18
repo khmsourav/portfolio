@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/context/ThemeContext";
-import "@/styles/globals.scss";
+import "@/css/globals.scss";
 
 export const metadata: Metadata = {
   title: "Kazi Sourav — Frontend Developer",
