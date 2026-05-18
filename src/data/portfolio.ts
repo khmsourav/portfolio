@@ -5,7 +5,7 @@ export const siteConfig = {
   email: "khmsourav@gmail.com",
   location: "Bangladesh",
   available: true,
-  resumeUrl: "#",
+  resumeUrl: "/resume.pdf",
   social: {
     github: "https://github.com/khmsourav",
     linkedin: "https://linkedin.com/in/khmsourav",
